@@ -5,7 +5,7 @@ import time
 service = Service(executable_path="chromedriver.exe")
 driver = webdriver.Chrome(service = service)
 
-website = 'https://itl-solutions.com/'
+website = 'https://google.com/'
 driver.get(website)
 driver.fullscreen_window()
 
